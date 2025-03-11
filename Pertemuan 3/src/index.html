@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan 3</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="font-[Poppins] bg-[#F0F0F0]">
+    <nav class="bg-[#03001C] text-white text-center p-8">
+        <h1 class="text-3xl font-bold">Tugas Praktikum Pertemuan 3</h1>
+        <p class="text-sm italic">Oleh: Zaldy <a href="https://github.com/Dokii06/Semester-2/tree/main" class="text-[#B6EADA] hover:text-[#5B8FB9] font-semibold transition">Seno</a> Yudhanto <span class="font-semibold">(2310631170123)</span></p>
+    </nav>
+    
+    <main class="flex flex-col items-center gap-24 p-8">
+        <div class="bg-white p-8 w-full flex flex-col gap-6 rounded-lg shadow-lg w-[600px]">
+            <h2 class="text-3xl font-bold text-center">Form Penjualan</h2>
+            <form class="flex flex-col gap-6">
+                <div class="flex flex-col w-full md:w-auto">
+                    <label class="font-medium">Produk</label>
+                    <input type="text" name="produk" class="border p-2 rounded-md">
+                </div>
+                <div class="flex flex-col">
+                    <label class="font-medium">Jumlah</label>
+                    <input type="text" name="jumlah" class="border p-2 rounded-md">
+                </div>
+                <div class="flex flex-col">
+                    <label class="font-medium">Harga</label>
+                    <input type="text" name="harga" class="border p-2 rounded-md">
+                </div>
+                <button class="bg-[#301E67] text-white font-medium py-4 rounded-md shadow-md hover:bg-[#5B8FB9] hover:text-black transition">Tambahkan</button>
+            </form>
+        </div>
+
+        <div class="bg-white p-12 rounded-lg shadow-lg flex flex-col gap-6 w-[600px]">
+            <h2 class="text-3xl font-bold text-center">Data Penjualan Bulanan</h2>
+            <table class="border-collapse border border-black w-full text-center">
+                <thead class="bg-[#301E67] text-white">
+                    <tr>
+                        <th rowspan="2" class="border border-black px-8 py-2">No</th>
+                        <th rowspan="2" class="border border-black px-8 py-2">Produk</th>
+                        <th colspan="2" class="border border-black px-8 py-2">Penjualan</th>
+                    </tr>
+                    <tr>
+                        <th class="border border-black px-8 py-2">Jumlah</th>
+                        <th class="border border-black px-8 py-2">Harga Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white">
+                        <td class="border border-black px-8 py-2">1</td>
+                        <td class="border border-black px-8 py-2">Sepatu</td>
+                        <td class="border border-black px-8 py-2">50</td>
+                        <td class="border border-black px-8 py-2">Rp. 25.000.000</td>
+                    </tr>
+                    <tr class="bg-white">
+                        <td class="border border-black px-8 py-2">2</td>
+                        <td class="border border-black px-8 py-2">Tas</td>
+                        <td class="border border-black px-8 py-2">30</td>
+                        <td class="border border-black px-8 py-2">Rp. 15.000.000</td>
+                    </tr>
+                    <tr class="bg-white">
+                        <td class="border border-black px-8 py-2">3</td>
+                        <td class="border border-black px-8 py-2">Jam Tangan</td>
+                        <td class="border border-black px-8 py-2">20</td>
+                        <td class="border border-black px-8 py-2">Rp. 10.000.000</td>
+                    </tr>
+                </tbody>
+                <tfoot class="font-bold">
+                    <tr class="bg-white">
+                        <td colspan="2" class="border border-black px-8 py-2">Total Penjualan</td>
+                        <td class="border border-black px-8 py-2">100</td>
+                        <td class="border border-black px-8 py-2">Rp. 50.000.000</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+    
+    <footer class="bg-[#03001C] text-white text-center py-4">
+        <p>Copyright &copy; 2025 Zaldy Seno Yudhanto</p>
+    </footer>
+</body>
+</html>
