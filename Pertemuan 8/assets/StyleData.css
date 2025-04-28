@@ -1,0 +1,89 @@
+/* Data Penerbangan*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.table-container {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.total{
+    font-weight: bold;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+a.btn:hover {
+    background-color: #0056b3;
+}
