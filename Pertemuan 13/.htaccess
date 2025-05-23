@@ -1,0 +1,8 @@
+# Mengaktifkan modul rewrite Apache
+RewriteEngine On # Turn on the rewriting engine
+
+# Jika URL adalah /books atau /books/ maka arahkan ke book.php
+RewriteRule ^books/?$ book.php [NC,L]
+
+# Jika URL adalah /books/123 maka arahkan ke book.php?id=123
+RewriteRule ^books/([0-9]+)/?$ book.php?id=$1 [NC,L]
