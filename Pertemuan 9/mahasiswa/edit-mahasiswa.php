@@ -52,7 +52,7 @@ if (isset($_GET['npm'])) {
                     Data KRS
                 </a>
             </nav>
-        </aside>
+        </aside>    
         <!-- input data mahasiswa -->
         <div class="flex-1 p-6">
             <h1 class="text-2xl font-bold mb-6">Input Data Mahasiswa</h1>
